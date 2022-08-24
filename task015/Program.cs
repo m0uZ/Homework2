@@ -6,7 +6,11 @@ if (a > 5 & a < 8)
 {
     Console.WriteLine("Chill");
 }
-else
+else if (a >= 1 & a <= 5 )
 {
     Console.WriteLine("Work");
+}
+else
+{
+    Console.WriteLine("7 days a week!");
 }
